@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 
 interface RevealProps {
     children: React.ReactNode;
@@ -20,7 +21,7 @@ export function Reveal({ children, width = '100%', delay = 0, direction = 'up', 
         }
     }, [isInView, mainControls]);
 
-    const variants = {
+    const variants: Variants = {
         hidden: {
             opacity: 0,
             y: direction === 'up' ? 50 : direction === 'down' ? -50 : 0,
@@ -30,7 +31,7 @@ export function Reveal({ children, width = '100%', delay = 0, direction = 'up', 
             opacity: 1,
             y: 0,
             x: 0,
-            transition: { duration: 0.8, ease: [0.25, 0.25, 0.25, 0.75], delay: delay }
+            transition: { duration: 0.8, ease: "easeOut", delay: delay }
         }
     };
 

@@ -1,4 +1,4 @@
-import { useRef, Suspense } from "react"
+import { useRef, Suspense, useMemo } from "react"
 import { Canvas, useFrame } from "@react-three/fiber"
 import { useTexture, Float, Environment } from "@react-three/drei"
 import * as THREE from "three"
@@ -52,12 +52,15 @@ function ParticleField() {
     const particlesRef = useRef<THREE.Points>(null)
     const count = 100
 
-    const positions = new Float32Array(count * 3)
-    for (let i = 0; i < count; i++) {
-        positions[i * 3] = (Math.random() - 0.5) * 10
-        positions[i * 3 + 1] = (Math.random() - 0.5) * 10
-        positions[i * 3 + 2] = (Math.random() - 0.5) * 5
-    }
+    const positions = useMemo(() => {
+        const pos = new Float32Array(count * 3)
+        for (let i = 0; i < count; i++) {
+            pos[i * 3] = (Math.random() - 0.5) * 10
+            pos[i * 3 + 1] = (Math.random() - 0.5) * 10
+            pos[i * 3 + 2] = (Math.random() - 0.5) * 5
+        }
+        return pos
+    }, [])
 
     useFrame((state) => {
         if (particlesRef.current) {
@@ -70,9 +73,7 @@ function ParticleField() {
             <bufferGeometry>
                 <bufferAttribute
                     attach="attributes-position"
-                    count={count}
-                    array={positions}
-                    itemSize={3}
+                    args={[positions, 3]}
                 />
             </bufferGeometry>
             <pointsMaterial
