@@ -68,7 +68,7 @@ export function AboutSection() {
                     <div className="relative">
                         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                             <img
-                                src="/CP_03173.JPG"
+                                src="/CP_03173.webp"
                                 alt="Grand ballroom with crystal chandeliers"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 loading="lazy"
@@ -85,7 +85,7 @@ export function AboutSection() {
                     <div className="relative order-2 lg:order-1">
                         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                             <img
-                                src="/CP_03162.JPG"
+                                src="/CP_03162.webp"
                                 alt="Modern conference hall"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                 loading="lazy"

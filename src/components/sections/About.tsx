@@ -10,7 +10,7 @@ export function About() {
                         <Reveal direction="right">
                             <div className="aspect-[4/5] overflow-hidden rounded-sm relative">
                                 <img
-                                    src="/CP_03173.JPG"
+                                    src="/CP_03173.webp"
                                     alt="Utsav Convention Interior"
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-[2s] ease-out"
                                 />

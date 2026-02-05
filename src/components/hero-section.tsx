@@ -25,7 +25,7 @@ export function HeroSection() {
                 style={{ y, scale }}
             >
                 <img
-                    src="/CP_03198.JPG"
+                    src="/CP_03198.webp"
                     alt="Utsav Convention Hall exterior"
                     className="w-full h-full object-cover"
                 />

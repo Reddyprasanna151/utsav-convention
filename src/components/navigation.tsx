@@ -45,7 +45,7 @@ export function Navigation() {
                             whileTap={{ scale: 0.95 }}
                         >
                             <img
-                                src="/UTSAV Logo.png"
+                                src="/UTSAV Logo.webp"
                                 alt="Utsav Convention Logo"
                                 className="h-10 w-auto object-contain"
                             />

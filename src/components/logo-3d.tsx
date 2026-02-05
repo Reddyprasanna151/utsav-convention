@@ -5,7 +5,7 @@ import * as THREE from "three"
 
 function LogoPlane() {
     const meshRef = useRef<THREE.Mesh>(null)
-    const texture = useTexture("/CP_03200-Photoroom.png")
+    const texture = useTexture("/CP_03200-Photoroom.webp")
 
     // Make texture transparent
     texture.colorSpace = THREE.SRGBColorSpace

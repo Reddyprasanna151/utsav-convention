@@ -7,7 +7,7 @@ const spaces = [
     {
         id: 1,
         name: "Grand Ballroom",
-        image: "/CP_03199.JPG",
+        image: "/CP_03199.webp",
         capacity: 3000,
         area: "45,000 sq ft",
         features: ["Pillar-free", "Crystal Chandeliers", "AV-equipped"],
@@ -17,7 +17,7 @@ const spaces = [
     {
         id: 2,
         name: "Executive Conference",
-        image: "/CP_03200.JPG",
+        image: "/CP_03200.webp",
         capacity: 200,
         area: "5,000 sq ft",
         features: ["Boardroom Style", "LED Display", "Video Conferencing"],
@@ -27,7 +27,7 @@ const spaces = [
     {
         id: 3,
         name: "Exhibition Hall",
-        image: "/CP_03201.JPG",
+        image: "/CP_03201.webp",
         capacity: 5000,
         area: "60,000 sq ft",
         features: ["Pillar-free", "Loading Docks", "High Ceilings"],
@@ -37,7 +37,7 @@ const spaces = [
     {
         id: 4,
         name: "Garden Lawn",
-        image: "/CP_03202.JPG",
+        image: "/CP_03202.webp",
         capacity: 2000,
         area: "30,000 sq ft",
         features: ["Open-air", "Landscaped", "Night Lighting"],
@@ -47,7 +47,7 @@ const spaces = [
     {
         id: 5,
         name: "VIP Lounge",
-        image: "/CP_03203.JPG",
+        image: "/CP_03203.webp",
         capacity: 100,
         area: "3,000 sq ft",
         features: ["Private Bar", "Premium Decor", "Exclusive Access"],
@@ -57,7 +57,7 @@ const spaces = [
     {
         id: 6,
         name: "Breakout Rooms",
-        image: "/CP_03204.JPG",
+        image: "/CP_03204.webp",
         capacity: 50,
         area: "1,500 sq ft",
         features: ["Modular", "Whiteboard Walls", "Natural Light"],

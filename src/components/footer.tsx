@@ -14,7 +14,7 @@ export function Footer() {
                     <div className="text-center md:text-left">
                         <div className="flex items-center justify-center md:justify-start gap-3 mb-4 sm:mb-6">
                             <img
-                                src="/UTSAV Logo.png"
+                                src="/UTSAV Logo.webp"
                                 alt="Utsav Convention Hall Logo"
                                 className="h-14 sm:h-16 w-auto"
                             />
