@@ -6,6 +6,7 @@ import { GallerySection } from "./components/gallery-section"
 import { LocationSection } from "./components/location-section"
 import { ContactSection } from "./components/contact-section"
 import { Footer } from "./components/footer"
+import { WhatsAppButton } from "./components/whatsapp-button"
 import "./index.css"
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
 
 export default App
+
