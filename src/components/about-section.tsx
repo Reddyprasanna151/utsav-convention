@@ -32,18 +32,21 @@ export function AboutSection() {
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20 lg:mb-32">
                     <div>
                         <h3 className="font-serif text-2xl sm:text-3xl font-bold text-dark-charcoal mb-6">
-                            Architectural Marvel Meets Modern Elegance
+                            Where Grand Celebrations Meet Modern Comfort
                         </h3>
                         <p className="text-muted-foreground leading-relaxed mb-6">
-                            Our convention hall stands as a testament to architectural brilliance,
-                            seamlessly blending traditional Indian design elements with contemporary
-                            sophistication. Every corner tells a story of meticulous craftsmanship
-                            and attention to detail.
+                            Our wedding function hall is designed for unforgettable gatherings, with a bright,
+                            spacious interior, elegant ceiling lights, and a beautifully crafted stage that
+                            frames every ceremony and reception in style.
+                        </p>
+                        <p className="text-muted-foreground leading-relaxed mb-6">
+                            Rows of comfortable seating, rich red-and-gold décor, and a clear center aisle
+                            create the perfect setting for weddings, receptions, and family functions of all sizes.
                         </p>
                         <p className="text-muted-foreground leading-relaxed mb-8">
-                            From the grand crystal chandeliers adorning our ballrooms to the
-                            cutting-edge technology powering our conference halls, we have
-                            created spaces that inspire and captivate.
+                            From the welcoming entrance façade and ample parking outside to the fully air
+                            conditioned hall inside, every detail is planned to keep your guests relaxed,
+                            comfortable, and fully focused on your big day.
                         </p>
 
                         {/* Features Grid */}
@@ -98,16 +101,17 @@ export function AboutSection() {
 
                     <div className="order-1 lg:order-2">
                         <h3 className="font-serif text-2xl sm:text-3xl font-bold text-dark-charcoal mb-6">
-                            Technology That Empowers Your Vision
+                            Premium Dining & Private Accommodations
                         </h3>
                         <p className="text-muted-foreground leading-relaxed mb-6">
-                            Our venues are equipped with the latest audio-visual technology,
-                            including high-resolution LED walls, professional-grade sound systems,
-                            and high-speed connectivity to ensure your events run flawlessly.
+                            A large dining hall and spacious kitchen area form the core of this venue,
+                            where clean white floors and soft, warm-toned table dressings create an
+                            elegant, refined setting.
                         </p>
                         <p className="text-muted-foreground leading-relaxed mb-8">
-                            Whether you are hosting a global conference or an intimate celebration,
-                            our technical infrastructure supports events of any scale and complexity.
+                            Spacious bridal rooms and well-appointed guest rooms are available on-site,
+                            so the couple and close family can get ready, relax, and stay overnight
+                            without leaving the venue.
                         </p>
 
                         {/* Features Grid */}

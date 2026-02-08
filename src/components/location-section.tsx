@@ -31,7 +31,7 @@ export function LocationSection() {
                     {/* Map */}
                     <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5!2d78.7897!3d14.4478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb4017b4e8eeee5%3A0x8e0f58f3c8b8e8e8!2sUtsav%20Convention%20Hall!5e0!3m2!1sen!2sin!4v1707000000000!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5!2d78.851902!3d14.432280!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDI1JzU2LjIiTiA3OMKwNTEnMDYuOCJF!5e0!3m2!1sen!2sin!4v1707000000000!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
@@ -59,7 +59,7 @@ export function LocationSection() {
                                     className="bg-royal-blue hover:bg-royal-blue/90 text-white w-full sm:w-auto"
                                 >
                                     <a
-                                        href="https://maps.app.goo.gl/NbLNtWUk7GKGnzSb9"
+                                        href="https://www.google.com/maps?q=14.432280,78.851902"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center justify-center gap-2"

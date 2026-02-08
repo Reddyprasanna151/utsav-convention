@@ -1,6 +1,6 @@
 import {
     Wifi,
-    Speaker,
+    Bed,
     Snowflake,
     ChefHat,
     Car,
@@ -16,9 +16,9 @@ const amenities = [
         description: "Elegant decor with crystal chandeliers",
     },
     {
-        icon: Speaker,
-        title: "HD Sound System",
-        description: "Professional audio for any event",
+        icon: Bed,
+        title: "Guest Rooms & Bridal Suites",
+        description: "On-site accommodation for your party",
     },
     {
         icon: Snowflake,

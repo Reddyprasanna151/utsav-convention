@@ -83,14 +83,19 @@ export function HeroSection() {
                     </h1>
 
                     {/* Subheadline */}
-                    <motion.p
+                    <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.9 }}
-                        className="text-base sm:text-lg md:text-xl text-white/70 max-w-md sm:max-w-xl mx-auto mb-8 sm:mb-12 leading-relaxed font-light px-4"
+                        className="max-w-md sm:max-w-2xl mx-auto mb-8 sm:mb-12 px-4"
                     >
-                        Premium convention hall for weddings, corporate events & celebrations
-                    </motion.p>
+                        <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed font-light mb-3">
+                            Premium convention hall for
+                        </p>
+                        <p className="text-xs sm:text-sm md:text-base text-white/90 font-medium tracking-[0.15em] sm:tracking-[0.2em]">
+                            WEDDINGS&nbsp;&nbsp;|&nbsp;&nbsp;BIRTHDAY PARTIES&nbsp;&nbsp;|&nbsp;&nbsp;SOCIAL EVENTS&nbsp;&nbsp;|&nbsp;&nbsp;CORPORATE EVENTS&nbsp;&nbsp;|&nbsp;&nbsp;SHOOTS &amp; MORE
+                        </p>
+                    </motion.div>
 
                     {/* CTA Buttons */}
                     <motion.div

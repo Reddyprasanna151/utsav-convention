@@ -38,7 +38,6 @@ export function ContactSection() {
             event_type: formData.get('eventType'),
             event_date: formData.get('eventDate'),
             guests: formData.get('guests'),
-            budget: formData.get('budget'),
             message: formData.get('message'),
         }
 
@@ -131,25 +130,6 @@ export function ContactSection() {
                                     <p className="text-white/70 text-xs sm:text-sm">Mon - Sat: 9 AM - 9 PM</p>
                                 </div>
                             </div>
-                        </div>
-
-                        {/* Quick Stats - Hidden on mobile, shown on desktop */}
-                        <div className="hidden lg:block mt-8 p-6 bg-white/5 rounded-2xl border border-white/10">
-                            <h3 className="font-semibold text-lg mb-4">Why Choose Us?</h3>
-                            <ul className="space-y-3">
-                                <li className="flex items-center gap-3 text-white/80">
-                                    <CheckCircle className="w-5 h-5 text-gold flex-shrink-0" />
-                                    <span className="text-sm">500+ successful events hosted</span>
-                                </li>
-                                <li className="flex items-center gap-3 text-white/80">
-                                    <CheckCircle className="w-5 h-5 text-gold flex-shrink-0" />
-                                    <span className="text-sm">Award-winning hospitality team</span>
-                                </li>
-                                <li className="flex items-center gap-3 text-white/80">
-                                    <CheckCircle className="w-5 h-5 text-gold flex-shrink-0" />
-                                    <span className="text-sm">Customizable packages</span>
-                                </li>
-                            </ul>
                         </div>
                     </div>
 
@@ -251,22 +231,6 @@ export function ContactSection() {
                                                 required
                                                 className="border-soft-gray focus:border-gold h-11 sm:h-10"
                                             />
-                                        </div>
-                                        <div className="space-y-2">
-                                            <Label htmlFor="budget" className="text-dark-charcoal text-sm">Budget Range</Label>
-                                            <select
-                                                id="budget"
-                                                name="budget"
-                                                className="flex h-11 sm:h-10 w-full rounded-md border border-soft-gray bg-white px-3 py-2 text-sm text-dark-charcoal cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold appearance-none"
-                                                style={{ backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`, backgroundPosition: 'right 0.5rem center', backgroundRepeat: 'no-repeat', backgroundSize: '1.5em 1.5em', paddingRight: '2.5rem' }}
-                                            >
-                                                <option value="">Select budget range</option>
-                                                <option value="under-3l">Under ₹3 Lakhs</option>
-                                                <option value="3-5l">₹3 - 5 Lakhs</option>
-                                                <option value="5-10l">₹5 - 10 Lakhs</option>
-                                                <option value="10-20l">₹10 - 20 Lakhs</option>
-                                                <option value="above-20l">Above ₹20 Lakhs</option>
-                                            </select>
                                         </div>
                                     </div>
 
