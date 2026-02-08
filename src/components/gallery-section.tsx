@@ -27,8 +27,7 @@ const categories = {
         "/CP_03221.webp", "/CP_03222.webp",
     ],
     "Guest Rooms": [
-        "/CP_03198.webp", "/CP_03227.webp", "/CP_03228.webp", "/CP_03229.webp",
-        "/CP_03230.webp", "/CP_03238.webp", "/WhatsApp Image 2026-02-07 at 10.32.26 PM.jpeg",
+        "/WhatsApp Image 2026-02-07 at 10.32.26 PM.jpeg",
     ],
     "Events": [
         "/CP_03242.webp", "/CP_03251.webp", "/CP_03257.webp", "/CP_03259.webp",
