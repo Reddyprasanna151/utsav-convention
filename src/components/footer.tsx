@@ -6,7 +6,7 @@ export function Footer() {
     }
 
     return (
-        <footer className="bg-dark-charcoal text-white">
+        <footer className="bg-soft-gray text-dark-charcoal">
             {/* Main Footer */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
                 <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8 lg:gap-12">
@@ -19,30 +19,30 @@ export function Footer() {
                                 className="h-14 sm:h-16 w-auto"
                             />
                         </div>
-                        <p className="text-white/60 text-xs sm:text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
+                        <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
                             {"Kadapa's premier convention destination for unforgettable events."}
                         </p>
                     </div>
 
                     {/* Contact */}
                     <div className="text-center md:text-right">
-                        <h3 className="font-semibold text-sm sm:text-base mb-4 sm:mb-6">Contact Us</h3>
+                        <h3 className="font-semibold text-dark-charcoal text-sm sm:text-base mb-4 sm:mb-6">Contact Us</h3>
                         <ul className="space-y-3 sm:space-y-4">
                             <li className="flex items-start justify-center md:justify-end gap-2 sm:gap-3">
-                                <span className="text-white/60 text-xs sm:text-sm text-right">
+                                <span className="text-muted-foreground text-xs sm:text-sm text-right">
                                     Utsav Convention Hall<br />
                                     Kadapa, Andhra Pradesh
                                 </span>
                                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-gold flex-shrink-0 mt-0.5" />
                             </li>
                             <li className="flex items-center justify-center md:justify-end gap-2 sm:gap-3">
-                                <a href="tel:+919966229292" className="text-white/60 hover:text-gold transition-colors text-xs sm:text-sm">
+                                <a href="tel:+919966229292" className="text-muted-foreground hover:text-gold transition-colors text-xs sm:text-sm">
                                     +91 9966229292
                                 </a>
                                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-gold flex-shrink-0" />
                             </li>
                             <li className="flex items-center justify-center md:justify-end gap-2 sm:gap-3">
-                                <a href="mailto:utsavconventionkadapa@gmail.com" className="text-white/60 hover:text-gold transition-colors text-xs sm:text-sm">
+                                <a href="mailto:utsavconventionkadapa@gmail.com" className="text-muted-foreground hover:text-gold transition-colors text-xs sm:text-sm">
                                     utsavconventionkadapa@gmail.com
                                 </a>
                                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-gold flex-shrink-0" />
@@ -53,9 +53,9 @@ export function Footer() {
             </div>
 
             {/* Bottom Bar */}
-            <div className="border-t border-white/10">
+            <div className="border-t border-dark-charcoal/10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
-                    <p className="text-white/40 text-xs sm:text-sm text-center">
+                    <p className="text-muted-foreground text-xs sm:text-sm text-center">
                         © {new Date().getFullYear()} Utsav Convention Hall. All rights reserved.
                     </p>
                 </div>

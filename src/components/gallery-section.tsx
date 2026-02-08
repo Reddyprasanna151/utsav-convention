@@ -62,7 +62,7 @@ export function GallerySection() {
         <section
             id="gallery"
             ref={sectionRef}
-            className="py-16 sm:py-20 lg:py-32 bg-neutral-50"
+            className="py-16 sm:py-20 lg:py-32 bg-white"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 {/* Section Header */}
@@ -87,8 +87,8 @@ export function GallerySection() {
                                     setLightboxIndex(null)
                                 }}
                                 className={`px-4 sm:px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200 whitespace-nowrap flex-shrink-0 ${activeCategory === category
-                                        ? "bg-dark-charcoal text-white"
-                                        : "bg-white text-dark-charcoal hover:bg-neutral-100 border border-neutral-200"
+                                    ? "bg-dark-charcoal text-white"
+                                    : "bg-white text-dark-charcoal hover:bg-neutral-100 border border-neutral-200"
                                     }`}
                             >
                                 {category}

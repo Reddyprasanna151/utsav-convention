@@ -68,7 +68,7 @@ export function ContactSection() {
     return (
         <section
             id="contact"
-            className="py-16 sm:py-20 lg:py-32 bg-gradient-to-br from-royal-blue to-deep-purple text-white"
+            className="py-16 sm:py-20 lg:py-32 bg-white"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
@@ -76,10 +76,10 @@ export function ContactSection() {
                     <span className="inline-block text-gold font-semibold text-sm tracking-wider uppercase mb-4">
                         Get In Touch
                     </span>
-                    <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-balance">
+                    <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-dark-charcoal mb-4 sm:mb-6 text-balance">
                         {"Let's Create Something Extraordinary"}
                     </h2>
-                    <p className="text-white/70 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
                         Ready to plan your event? Fill out the form and our team will
                         get back to you within 24 hours.
                     </p>
@@ -89,45 +89,45 @@ export function ContactSection() {
                     {/* Contact Info */}
                     <div className="lg:col-span-2 order-2 lg:order-1">
                         <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-6">
-                            <div className="flex items-start gap-3 sm:gap-4 bg-white/5 rounded-xl p-4">
-                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <div className="flex items-start gap-3 sm:gap-4 bg-white rounded-xl p-4 shadow-sm">
+                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gold/10 rounded-xl flex items-center justify-center flex-shrink-0">
                                     <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
                                 </div>
                                 <div className="min-w-0">
-                                    <h3 className="font-semibold text-sm sm:text-base mb-1">Phone</h3>
-                                    <p className="text-white/70 text-xs sm:text-sm truncate">+91 9966229292</p>
+                                    <h3 className="font-semibold text-dark-charcoal text-sm sm:text-base mb-1">Phone</h3>
+                                    <p className="text-muted-foreground text-xs sm:text-sm truncate">+91 9966229292</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-3 sm:gap-4 bg-white/5 rounded-xl p-4">
-                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <div className="flex items-start gap-3 sm:gap-4 bg-white rounded-xl p-4 shadow-sm">
+                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gold/10 rounded-xl flex items-center justify-center flex-shrink-0">
                                     <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
                                 </div>
                                 <div className="min-w-0">
-                                    <h3 className="font-semibold text-sm sm:text-base mb-1">Email</h3>
-                                    <p className="text-white/70 text-xs sm:text-sm truncate">utsavconventionkadapa@gmail.com</p>
+                                    <h3 className="font-semibold text-dark-charcoal text-sm sm:text-base mb-1">Email</h3>
+                                    <p className="text-muted-foreground text-xs sm:text-sm truncate">utsavconventionkadapa@gmail.com</p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-3 sm:gap-4 bg-white/5 rounded-xl p-4">
-                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <div className="flex items-start gap-3 sm:gap-4 bg-white rounded-xl p-4 shadow-sm">
+                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gold/10 rounded-xl flex items-center justify-center flex-shrink-0">
                                     <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
                                 </div>
                                 <div className="min-w-0">
-                                    <h3 className="font-semibold text-sm sm:text-base mb-1">Address</h3>
-                                    <p className="text-white/70 text-xs sm:text-sm">
+                                    <h3 className="font-semibold text-dark-charcoal text-sm sm:text-base mb-1">Address</h3>
+                                    <p className="text-muted-foreground text-xs sm:text-sm">
                                         Kadapa, Andhra Pradesh
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-3 sm:gap-4 bg-white/5 rounded-xl p-4">
-                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <div className="flex items-start gap-3 sm:gap-4 bg-white rounded-xl p-4 shadow-sm">
+                                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gold/10 rounded-xl flex items-center justify-center flex-shrink-0">
                                     <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-gold" />
                                 </div>
                                 <div className="min-w-0">
-                                    <h3 className="font-semibold text-sm sm:text-base mb-1">Hours</h3>
-                                    <p className="text-white/70 text-xs sm:text-sm">Mon - Sat: 9 AM - 9 PM</p>
+                                    <h3 className="font-semibold text-dark-charcoal text-sm sm:text-base mb-1">Hours</h3>
+                                    <p className="text-muted-foreground text-xs sm:text-sm">Mon - Sat: 9 AM - 9 PM</p>
                                 </div>
                             </div>
                         </div>

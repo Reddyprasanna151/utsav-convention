@@ -56,7 +56,7 @@ export function AmenitiesSection() {
     return (
         <section
             id="amenities"
-            className="py-24 lg:py-32 bg-white"
+            className="py-24 lg:py-32 bg-soft-gray"
         >
             <div className="max-w-6xl mx-auto px-6">
                 {/* Section Header */}
