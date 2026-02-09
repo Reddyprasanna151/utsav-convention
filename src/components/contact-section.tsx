@@ -26,6 +26,14 @@ export function ContactSection() {
         const form = e.currentTarget
         const formData = new FormData(form)
 
+        // Format the date from YYYY-MM-DD to a readable format
+        const rawDate = formData.get('eventDate') as string
+        const formattedDate = rawDate ? new Date(rawDate + 'T00:00:00').toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        }) : rawDate
+
         // Prepare data for Web3Forms
         const data = {
             access_key: "ee55c420-86bf-424a-b7ff-e7ac6f5f88a9",
@@ -36,7 +44,7 @@ export function ContactSection() {
             phone: formData.get('phone'),
             email: formData.get('email'),
             event_type: formData.get('eventType'),
-            event_date: formData.get('eventDate'),
+            event_date: formattedDate,
             guests: formData.get('guests'),
             message: formData.get('message'),
         }
